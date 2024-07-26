@@ -15,7 +15,7 @@ class LoginScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: const Color.fromARGB(255, 37, 81, 139),
+        backgroundColor: Color.fromARGB(255, 38, 83, 143),
         elevation: 0,
         title: const Text(
           'Social Media',
@@ -27,7 +27,7 @@ class LoginScreen extends StatelessWidget {
       ),
       body: Container(
         decoration:
-            const BoxDecoration(color: Color.fromARGB(255, 249, 249, 249)),
+            const BoxDecoration(color: Color.fromARGB(255, 251, 249, 249)),
         child: Form(
           key: _formkey,
           child: Column(
@@ -49,7 +49,7 @@ class LoginScreen extends StatelessWidget {
                 },
               ),
               const SizedBox(
-                height: 20,
+                height: 21,
               ),
               TextFormField(
                 controller: passwordController,

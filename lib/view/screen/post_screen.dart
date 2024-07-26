@@ -7,7 +7,7 @@ class PostScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Scaffold(
       body: Center(
-        child: Text('post screen'),
+        child: Text('Post Screen'),
       ),
     );
   }
