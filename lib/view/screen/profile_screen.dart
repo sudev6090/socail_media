@@ -18,7 +18,7 @@ class ProfileScreen extends StatelessWidget {
           final UserModel? user = snapshot.data;
           if (user != null) {
             return Scaffold(
-              backgroundColor: Colors.white,
+              backgroundColor: const Color.fromARGB(255, 246, 245, 245),
               appBar: AppBar(
                 iconTheme: const IconThemeData(color: Colors.black),
                 elevation: 0,
