@@ -18,7 +18,7 @@ class ProfileScreen extends StatelessWidget {
           final UserModel? user = snapshot.data;
           if (user != null) {
             return Scaffold(
-              backgroundColor: const Color.fromARGB(255, 246, 245, 245),
+              backgroundColor: Colors.white,
               appBar: AppBar(
                 iconTheme: const IconThemeData(color: Colors.black),
                 elevation: 0,
@@ -89,7 +89,7 @@ class ProfileScreen extends StatelessWidget {
                               Text(
                                 user.followers!.length.toString(),
                               ),
-                              const Text('following')
+                              const Text('Following')
                             ],
                           ),
                         ],
